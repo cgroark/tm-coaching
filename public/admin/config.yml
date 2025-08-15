@@ -1,7 +1,7 @@
 backend:
-  name: git-gateway
+  name: github
+  repo: "cgroark/tm-coaching"
   branch: master
-  repo: "cgroark/tm-coaching" # repo where your content lives
   auth_endpoint: "https://tm-coaching-admin.netlify.app/auth"
 
 media_folder: "public/uploads"
